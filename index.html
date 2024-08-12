@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohit Rohilla - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mohit Rohilla</h1>
+            <p>Software Engineer | Backend Developer | Python Developer | Cloud Enthusiast</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="container">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Hi, I'm Mohit Rohilla, a dedicated software engineer with experience in developing scalable APIs, cloud solutions, and automation tools. I am currently pursuing a Master's in Computer Applications from Jain University, enhancing my expertise in Data Science, Python, and AWS. My goal is to leverage my skills to drive innovation and contribute to technological advancements.</p>
+    </section>
+
+    <section id="experience" class="container">
+        <h2>Experience</h2>
+
+        <div class="experience-item">
+            <h3>Software Engineer</h3>
+            <h4>Code Ballistix | Dec 2023 - Present</h4>
+            <ul>
+                <li>Developed a highly scalable Instagram Scraper using Python, integrated with proxy and VPN services to efficiently bypass IP bans. This solution was crucial in scraping over 1 million profiles for a major marketing agency.</li>
+                <li>Utilized PySpark for large-scale data processing and analysis, generating detailed Excel reports that provided insights such as engagement rates and audience demographics for marketing strategies.</li>
+                <li>Led the development of robust APIs for a news agency, focusing on enhancing reliability and performance. Integrated advanced task queuing systems using Celery and RabbitMQ, which improved the efficiency of handling high volumes of requests.</li>
+                <li>Designed and implemented a REST API backend for a SaaS platform using FastAPI. Key features included rate limiting using Redis, JWT-based authentication, and the API Gateway pattern for seamless microservices integration, significantly improving the platform’s performance and security.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <h3>Support Software Engineer</h3>
+            <h4>Freelance | Mar 2023 - Nov 2023</h4>
+            <ul>
+                <li>Developed robust Pytest cases for comprehensive testing.</li>
+                <li>Monitored Celery workers to ensure efficient background task processing.</li>
+                <li>Designed and implemented REST APIs for scalable system interactions.</li>
+                <li>Utilized AWS Lambda for task automation and workflow optimization.</li>
+                <li>Delivered high-quality solutions tailored to client needs using modern technologies.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <h3>Associate Software Engineer</h3>
+            <h4>Ascendion(Earlier know as Collabera services pvt. Ltd)</h4>
+            <ul>
+                <li>Gained extensive experience with AWS services, particularly in deploying and managing SAP systems on EC2 instances. Played a key role in optimizing cloud infrastructure to improve system performance and reduce costs.</li>
+                <li>Developed Python-based AWS Lambda functions to automate various processes, enhancing system functionality and operational efficiency. These functions were integral to several projects, demonstrating my ability to build scalable cloud-based solutions.</li>
+                <li>Led a project to integrate REST APIs with AWS Lambda, enabling the creation of highly scalable, serverless applications. This project highlighted my proficiency in cloud engineering and my ability to leverage AWS services to deliver effective solutions.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+
+        <div class="project-item">
+            <h3>SaaS Platform Backend Development</h3>
+            <p>Optimized backend API development for a SaaS platform using FastAPI, focusing on high performance and scalability. Implemented a Redis-based rate limiter to efficiently manage API requests and prevent abuse. Integrated full-text search capabilities into PostgreSQL, enabling advanced search functionalities across the platform. Additionally, employed SQLAlchemy for sophisticated database management, ensuring data integrity and optimal performance. This project significantly enhanced the platform's ability to handle large-scale operations and provided a seamless experience for end-users.</p>
+        </div>
+
+        <div class="project-item">
+            <h3>Image Processing Pipeline with FastAPI, Celery, and Supabase</h3>
+            <p>In this project, I have developed a robust image processing pipeline utilizing FastAPI, Celery, and Supabase to handle and optimize image data efficiently. The pipeline automates the entire workflow from image retrieval to processing and storage. Initially, images are downloaded from URLs listed in a CSV file. These images are then compressed by 50% to reduce file size without significantly compromising quality. The processed images are uploaded to Supabase, with the original images stored in an 'input' folder and the compressed images in an 'output' folder. The original CSV file is updated with new columns containing the URLs of the compressed images, facilitating easy access and management. The project demonstrates the integration of modern technologies for scalable image processing and storage solutions.</p>
+        </div>
+
+        <div class="project-item">
+            <h3>API Development for News Agency</h3>
+            <p>Developed robust APIs tailored to the specific needs of a leading news agency, ensuring high reliability and performance. Created comprehensive test suites to validate the APIs, significantly reducing bugs and improving system stability. Managed Celery workers and configured RabbitMQ to handle large volumes of tasks efficiently, improving communication between distributed systems. This project enhanced the agency's operational efficiency, allowing them to handle real-time data processing and large-scale news distribution more effectively.</p>
+        </div>
+
+        <div class="project-item">
+            <h3>PDF Project (Document Management with Python PDF Toolkit)</h3>
+            <p>Created a Python-based platform designed to simplify document management tasks, including PDF compression, JPG to PDF conversion, and Word to PDF conversion. The platform's advanced features significantly improved document handling efficiency, making it a valuable tool for businesses that deal with large volumes of documents daily. This project showcased Python's versatility in developing practical solutions for real-world problems and highlighted my ability to create software that meets specific business needs.</p>
+        </div>
+        <div class="project-item">
+            <h3>Instagram Scraper</h3>
+            <p>Developed a highly scalable Instagram Scraper using Python, integrated with proxy and VPN services to efficiently bypass IP bans. This solution was crucial in scraping over 1 million profiles for a major marketing agency. Developed a scalable Instagram Scraper using Python and integrated proxy/VPN services to circumvent IP bans, successfully scraping nearly 1 million profiles for a marketing agency. Additionally, I utilized PySpark to analyze the scraped data and generate Excel reports, calculating key metrics such as engagement rates.</p>
+        </div>
+        <div class="project-item">
+            <h3>Online Test Management System</h3>
+            <p>The Online Test Management System is a web-based application designed to streamline the process of creating, administering, and evaluating quizzes and tests. This system is ideal for educational institutions and organizations looking to manage their assessments efficiently.
+                Skills: FastAPI · PostgreSQL · Backend · Database Design · Python (Programming Language)
+            </p>
+        </div>
+        </section>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>Programming Languages: Python, FastAPI, Django, Celery</li>
+            <li>Cloud Engineering: EC2, S3, VPC, Lambda, API Gateway, IAM, DynamoDB</li>
+            <li>Database: MySQL, PostgreSQL, MongoDB, Redis</li>
+            <li>DevOps: Docker, Linux, Ansible</li>
+        </ul>
+    </section>
+
+    <section id="education" class="container">
+        <h2>Education</h2>
+
+        <div class="education-item">
+            <h3>Master of Computer Applications (MCA)</h3>
+            <p>Jain University | Jan 2023 - Present</p>
+        </div>
+
+        <div class="education-item">
+            <h3>Bachelor of Computer Applications (BCA)</h3>
+            <p>CMR Institute Of Management Studies | Jul 2017 - Sep 2020</p>
+        </div>
+
+        <div class="education-item">
+            <h3>Post Graduation Diploma In Data Science</h3>
+            <p>Prolific Systems & Technologies Pvt. Ltd. | Sep 2020 - Jul 2021</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Connect with me: <a href="https://www.linkedin.com/in/itsmohitrohilla">LinkedIn</a> | <a href="mailto:mrohilla165@gmail.com">Email</a> | <a href="https://github.com/itsmohitrohilla">GitHub</a></p>
+        </div>
+    </footer>
+</body>
+</html>
